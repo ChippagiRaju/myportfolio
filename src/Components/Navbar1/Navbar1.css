@@ -1,0 +1,21 @@
+.navBar {
+  width: 90%;
+  height: 60px;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding: 10px;
+}
+
+.navBar_Child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+  color: #356750;
+}

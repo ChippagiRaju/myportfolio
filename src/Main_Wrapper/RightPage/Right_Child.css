@@ -1,0 +1,14 @@
+.Right_Child {
+  padding-top: 10px;
+}
+.Heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.ant-tabs-tab-btn {
+  font-size: 1.1rem !important;
+  font-weight: 600;
+}
+.ant-progress-text {
+  color: white !important;
+}
