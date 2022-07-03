@@ -12,7 +12,7 @@ export default function index() {
           <img src={Profile_Pic} height={"40px"} />
         </div>
       </Col>
-      <Col span={6} offset={6}>
+      <Col span={4} offset={8}>
         <div className="navBar_Child">
            
           <div>ABOUT</div>
