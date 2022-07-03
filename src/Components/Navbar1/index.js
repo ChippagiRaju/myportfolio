@@ -14,7 +14,7 @@ export default function index() {
       </Col>
       <Col span={6} offset={6}>
         <div className="navBar_Child">
-          <div>HOME</div>
+           
           <div>ABOUT</div>
           <div>EDUCATION</div>
           <div>PROJECT</div>
