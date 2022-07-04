@@ -9,8 +9,10 @@ import {
   LinkedinOutlined,
   TwitterOutlined,
 } from "@ant-design/icons";
-import { DiStackoverflow } from "react-icons/di";
+import { DiStackoverflow,} from "react-icons/di";
 import SocialPlugins from "../../Components/SocialPlugins";
+import { SiGmail  } from "react-icons/si";
+import { MdCall } from "react-icons/md";
 
 export default function index() {
   return (
@@ -46,8 +48,8 @@ export default function index() {
       <Divider />
 
       <div style={{ fontSize: "1.2rem" }}>
-        <div>chippagiraju@gmail.com</div>
-        <div>+91-8008428444</div>
+     <Row ><Col><SiGmail />chippagiraju@gmail.com</Col></Row>
+     <Row ><Col><MdCall/>+91-8008428444</Col></Row>
       </div>
       <Divider />
       <div>
