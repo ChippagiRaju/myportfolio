@@ -56,7 +56,9 @@ export default function index() {
         <Row gutter={[8, 8]}>
           <Col span={8}>
             <SocialPlugins target="_blank">
+              
               <LinkedinOutlined style={{ fontSize: "2.4rem" }} />
+             
             </SocialPlugins>
           </Col>
           <Col span={8}>
@@ -80,7 +82,9 @@ export default function index() {
           <Col span={8}></Col>
           <Col span={8}>
             <SocialPlugins target="_blank">
+            <a href="https://github.com/ChippagiRaju" target={"_blank"}>
               <GithubOutlined style={{ fontSize: "2.4rem", color: "black" }} />
+              </a>
             </SocialPlugins>
           </Col>
         </Row>
