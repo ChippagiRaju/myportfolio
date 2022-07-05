@@ -21,6 +21,7 @@ export default function index() {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
+        
       }}
     >
       <Avatar

@@ -3,6 +3,7 @@ import { Col, Row } from "antd";
 import Profile_Pic from "../../RJ.png";
 import { Avatar, Image } from "antd";
 import "./Navbar1.css";
+// import { About, Education, Project } from "../../Main_Wrapper/RightPage"
 
 export default function index() {
   return (
@@ -14,10 +15,11 @@ export default function index() {
       </Col>
       <Col span={4} offset={8}>
         <div className="navBar_Child">
-           
-          <div style={{cursor:"pointer"}}>ABOUT</div>
-          <div style={{cursor:"pointer"}}>EDUCATION</div>
-          <div style={{cursor:"pointer"}}>PROJECT</div>
+       
+          <div style={{ cursor: "pointer" }}> <a href="#ss" target="_self">ABOUT</a></div>
+          <div style={{ cursor: "pointer" }}> <a href="#ss1" target="_self">EDUCATION</a></div>
+          <div style={{ cursor: "pointer" }}> <a href="#ss2" target="_self">PROJECT</a></div>
+
         </div>
       </Col>
     </Row>

@@ -10,6 +10,7 @@ import {
 export default function Project() {
   return (
     <>
+    <div id="ss2">
       <div className="Heading" style={{ color: "#334680", marginTop: "10px" }}>
         PROJECT
       </div>
@@ -200,6 +201,7 @@ export default function Project() {
             </Row>
           </Col>
         </Row>
+      </div>
       </div>
     </>
   );
