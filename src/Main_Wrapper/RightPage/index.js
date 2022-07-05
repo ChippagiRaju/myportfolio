@@ -7,8 +7,9 @@ export default function index() {
     <div>
       <About />
       <SkillSet />
-      <Education />
       <Project />
+      <Education />
+    
     </div>
   );
 }
