@@ -8,7 +8,7 @@ import { IoIosSchool } from "react-icons/io";
 export default function Education() {
   return (
     <>
-    <div id="ss1">
+    <div id="Education">
       <div className="Heading" style={{ color: "#334680", marginTop: "10px" }}>
         EDUCATION
       </div>

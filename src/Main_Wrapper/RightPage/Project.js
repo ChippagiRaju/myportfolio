@@ -10,7 +10,7 @@ import {
 export default function Project() {
   return (
     <>
-    <div id="ss2">
+    <div id="Project">
       <div className="Heading" style={{ color: "#334680", marginTop: "10px" }}>
         PROJECT
       </div>

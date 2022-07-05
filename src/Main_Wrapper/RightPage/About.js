@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div id="ss">
+    <div id="About">
       <h1 style={{ fontWeight: "bold", color: "#334680" }}>ABOUT ME</h1>
       <h2 style={{ width: "70%" }}>
         To pursue a challenging and an exciting career in an industry, where I
