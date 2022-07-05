@@ -4,10 +4,9 @@ import "./App.css"
 
 function App() {
   return (
-    <div  >
-    <Navbar1/>
-    <Wrapper/>
-    
+    <div style={{ backgroundColor: "#8da75e" ,marginTop:"0%" }}>
+      <Navbar1 />
+      <Wrapper />
     </div>
   );
 }
