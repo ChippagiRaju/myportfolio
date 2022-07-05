@@ -13,9 +13,9 @@ export default function index({
   gr,
 }) {
   const Levels = ["Beginner", "Intermediate", "Expert", "Fluent", "Good"];
-  const LevelColors = ["lime", "magenta", "geekblue", "purple", "cyan"];
-  // const LevelColors = [<Badge.Ribbon text="Hippies"> </Badge.Ribbon >]
+  const LevelColors = ["lime", "orange", "green", "purple", "cyan"];
   return (
+    <Badge.Ribbon text={Levels[level]} color={LevelColors[0]}>
     <div
       style={{
         // backgroundColor: "#312643",
@@ -40,7 +40,7 @@ export default function index({
           </div>
         </Col>
         <Col span={8}>
-          <Tag
+          {/* <Tag
             color={LevelColors[level]}
             style={{
               fontSize: "1rem",
@@ -50,7 +50,7 @@ export default function index({
             }}
           >
             {Levels[level]}
-          </Tag>
+          </Tag> */}
         </Col>
       </Row>
       <Row>
@@ -66,5 +66,6 @@ export default function index({
         </Col>
       </Row>
     </div>
+    </Badge.Ribbon>
   );
 }

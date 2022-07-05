@@ -38,6 +38,7 @@ export default function SkillSet() {
                 }
                 level={1}
                 percentage={"80%"}
+                // text={1}
               />
             </Col>
             <Col span={8}>
@@ -148,7 +149,6 @@ export default function SkillSet() {
             </Col>
           </Row>
         </TabPane>
-
         <TabPane tab="Spoken Languages" key="2">
           <Row gutter={[16, 16]}>
             <Col span={8}>
