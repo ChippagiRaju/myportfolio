@@ -9,9 +9,9 @@ import {
   LinkedinOutlined,
   TwitterOutlined,
 } from "@ant-design/icons";
-import { DiStackoverflow,} from "react-icons/di";
+import { DiStackoverflow, } from "react-icons/di";
 import SocialPlugins from "../../Components/SocialPlugins";
-import { SiGmail  } from "react-icons/si";
+import { SiGmail } from "react-icons/si";
 import { MdCall } from "react-icons/md";
 
 export default function index() {
@@ -35,7 +35,9 @@ export default function index() {
         </div>
         <Row style={{ fontSize: "1.2rem" }}>
           <Col span={2}>
+
             <LinkedinOutlined />
+
           </Col>
           <Col span={20} offset={2}>
             {" "}
@@ -48,17 +50,18 @@ export default function index() {
       <Divider />
 
       <div style={{ fontSize: "1.2rem" }}>
-     <Row ><Col><SiGmail />chippagiraju@gmail.com</Col></Row>
-     <Row ><Col><MdCall/>+91-8008428444</Col></Row>
+        <Row ><Col><SiGmail />chippagiraju@gmail.com</Col></Row>
+        <Row ><Col><MdCall />+91-8008428444</Col></Row>
       </div>
       <Divider />
       <div>
         <Row gutter={[8, 8]}>
           <Col span={8}>
             <SocialPlugins target="_blank">
-              
-              <LinkedinOutlined style={{ fontSize: "2.4rem" }} />
-             
+              <a href="https://www.linkedin.com/in/chippagiraju/" target={"_blank"}>
+
+                <LinkedinOutlined style={{ fontSize: "2.4rem" }} />
+              </a>
             </SocialPlugins>
           </Col>
           <Col span={8}>
@@ -82,8 +85,8 @@ export default function index() {
           <Col span={8}></Col>
           <Col span={8}>
             <SocialPlugins target="_blank">
-            <a href="https://github.com/ChippagiRaju" target={"_blank"}>
-              <GithubOutlined style={{ fontSize: "2.4rem", color: "black" }} />
+              <a href="https://github.com/ChippagiRaju" target={"_blank"}>
+                <GithubOutlined style={{ fontSize: "2.4rem", color: "black" }} />
               </a>
             </SocialPlugins>
           </Col>
