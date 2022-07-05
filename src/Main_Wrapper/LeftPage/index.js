@@ -16,12 +16,11 @@ import { MdCall } from "react-icons/md";
 
 export default function index() {
   return (
-    <div
+    <div className="LeftChild"
       style={{
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        
       }}
     >
       <Avatar

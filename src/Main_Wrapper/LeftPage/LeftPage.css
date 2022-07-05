@@ -1,4 +1,7 @@
 .LeftChild {
   /* display: flex; */
   /* align-items: center; */
+  width: 90%;
+margin-left: 100px;
+margin-top: 80px;
 }
