@@ -30,7 +30,7 @@ export default function index() {
         style={{ borderRadius: "15px" }}
       />
       <div>
-        <div style={{ fontWeight: "bold", fontSize: "2rem" }}>
+        <div style={{ fontWeight: "bold", fontSize: "1.5rem" }}>
           CHIPPAGI RAJU
         </div>
         <Row style={{ fontSize: "1.2rem" }}>
