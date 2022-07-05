@@ -26,7 +26,7 @@ export default function index({
     >
       <Row align="middle">
         <Col span={2}>{icon}</Col>
-        <Col span={10} offset={4}>
+        <Col span={8} offset={6}>
           <div
             style={{
               fontSize: "1.4rem",
