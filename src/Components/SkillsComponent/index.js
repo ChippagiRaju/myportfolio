@@ -13,9 +13,9 @@ export default function index({
   gr,
 }) {
   const Levels = ["Beginner", "Intermediate", "Expert", "Fluent", "Good"];
-  const LevelColors = ["lime", "orange", "green", "purple", "cyan"];
+  const LevelColors = ["grey", "orange", "green", "purple", "cyan"];
   return (
-    <Badge.Ribbon text={Levels[level]} color={LevelColors[0]}>
+    <Badge.Ribbon text={Levels[level]} color={LevelColors[level]}>
     <div
       style={{
         // backgroundColor: "#312643",
