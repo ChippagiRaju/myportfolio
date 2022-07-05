@@ -15,9 +15,9 @@ export default function index() {
       <Col span={4} offset={8}>
         <div className="navBar_Child">
            
-          <div>ABOUT</div>
-          <div>EDUCATION</div>
-          <div>PROJECT</div>
+          <div style={{cursor:"pointer"}}>ABOUT</div>
+          <div style={{cursor:"pointer"}}>EDUCATION</div>
+          <div style={{cursor:"pointer"}}>PROJECT</div>
         </div>
       </Col>
     </Row>
