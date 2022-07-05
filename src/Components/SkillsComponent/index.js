@@ -1,6 +1,6 @@
 import React from "react";
 import "./SkillsCom.css";
-import { Radio, Tabs, Row, Col, Tab, Tag, Progress } from "antd";
+import { Radio, Tabs, Row, Col, Tab, Tag, Progress, Badge, Card } from "antd";
 import { DiReact } from "react-icons/di";
 
 export default function index({
@@ -14,6 +14,7 @@ export default function index({
 }) {
   const Levels = ["Beginner", "Intermediate", "Expert", "Fluent", "Good"];
   const LevelColors = ["lime", "magenta", "geekblue", "purple", "cyan"];
+  // const LevelColors = [<Badge.Ribbon text="Hippies"> </Badge.Ribbon >]
   return (
     <div
       style={{
@@ -26,7 +27,7 @@ export default function index({
     >
       <Row align="middle">
         <Col span={2}>{icon}</Col>
-        <Col span={8} offset={6}>
+        <Col span={9} offset={5}>
           <div
             style={{
               fontSize: "1.4rem",
