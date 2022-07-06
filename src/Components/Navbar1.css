@@ -1,23 +1,24 @@
 .navBar {
   width: 90%;
   height: 60px;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
-
   padding: 10px;
   position: fixed;
-  background-color: antiquewhite;
   z-index: 1;
   top: 5px;
   scrollbar-color:turquoise;
   
 }
-.scroll{
+.scrollon{
   background-color: turquoise;
+}
+.scrolloff{
+  background-color: white;
 }
 .navBar_Child {
   display: flex;

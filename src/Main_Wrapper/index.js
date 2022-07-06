@@ -7,10 +7,10 @@ export default function index() {
   return (
    
     <Row style={{ width: "90%", marginLeft: "100px" }}>
-      <Col span={4}>
+      <Col span={5}>
         <LeftPage />
       </Col>
-      <Col span={18} offset={1}>
+      <Col span={16} offset={1}>
         <RightPage />
       </Col>
     </Row>

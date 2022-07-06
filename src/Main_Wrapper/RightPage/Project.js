@@ -110,7 +110,7 @@ export default function Project() {
                 </Col>
               </Row>
             </Col>
-            <Col span={14} style={{ backgroundColor: "white" }}>
+            <Col span={18} style={{ backgroundColor: "white" }}>
               <Row>
                 <Col
                   style={{

@@ -1,15 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import { Col, Row } from "antd";
-import Profile_Pic from "../../RJ.png";
+import Profile_Pic from "../RJ.png";
 import { Avatar, Image } from "antd";
 import "./Navbar1.css";
 // import { About, Education, Project } from "../../Main_Wrapper/RightPage"
 
-export default function index() {
+export default function Navbar() {
+  const [color, setColor] = useState(false)
 
+  const ChangeNavbarColor = () => {
+    if (window.scrollY >= 80) {
+      setColor(true);
+    }
+    else {
+      setColor(false);
+    }
+  };
+  window.addEventListener('scroll', ChangeNavbarColor);
+  
   return (
-
-    <Row className="navBar" id="scroll">
+    <Row className={color?"navBar scrollon":"navBar scrolloff"} id="scroll">
       <Col span={8} offset={1} className="navBar_image">
         <div>
           <img src={Profile_Pic} height={"40px"} />
@@ -25,6 +35,6 @@ export default function index() {
         </div>
       </Col>
     </Row>
- 
+
   );
 }

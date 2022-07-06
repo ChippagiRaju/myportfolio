@@ -36,9 +36,11 @@ export default function index() {
         }}
       />
       <div>
-        <div style={{ fontWeight: "bold", fontSize: "1.5rem" }}>
+        <Row style={{ fontWeight: "bold", fontSize: "1.5rem" }}>
+          <Col span={24}>
           CHIPPAGI RAJU
-        </div>
+          </Col>
+        </Row>
         <Row style={{ fontSize: "1.2rem" }}>
           <Col span={2}>
 
