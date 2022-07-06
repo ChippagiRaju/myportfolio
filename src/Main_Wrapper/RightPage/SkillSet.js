@@ -11,15 +11,17 @@ import {
 import { SiMicrosoftazure, SiTerraform, SiDocker } from "react-icons/si";
 import SkillsComponent from "../../Components/SkillsComponent";
 import "./SkillSet.css"
+import Headers from "../../Components/Headers";
 
 const { TabPane } = Tabs;
 
 export default function SkillSet() {
   return (
     <>
-      <div className="Heading" style={{ color: "#334680" }}>
+      {/* <div className="Heading" style={{ color: "#334680" }}>
         <div style={{background:"linear-gradient(to left, #FF0000 0%, #000000 100%)","WebkitBackgroundClip":"text","WebkitTextFillColor":"transparent"}} >SKILLS SET</div>
-      </div>
+      </div> */}
+      <Headers refid={"Skillset"} name={"SKILLS SET"}/>
       <Tabs
         defaultActiveKey="1"
         type="card"

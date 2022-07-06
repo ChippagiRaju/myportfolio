@@ -4,14 +4,16 @@ import { Timeline, Row, Col } from "antd";
 import "./Education.css";
 import { FaSchool, FaArchway, IoSchoolSharp } from "react-icons/fa";
 import { IoIosSchool } from "react-icons/io";
+import Headers from "../../Components/Headers";
 
 export default function Education() {
   return (
     <>
-    <div id="Education">
-      <div className="Heading"  style={{ color: "#334680", marginTop: "10px" }}>
-       <div className="gre"> EDUCATION </div>
-      </div>
+    {/* <div id="Education"> */}
+      <div >
+       {/* <div className="gre"> EDUCATION </div>
+      </div> */}
+      <Headers refid={"Education"} name={"EDUCATION"}/>
       <Row>
         <Col span={12} offset={4} style={{ fontSize: "2rem" }}>
           <Timeline mode="alternate" style={{ marginTop: "80px" }}>
