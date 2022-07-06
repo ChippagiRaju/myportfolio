@@ -10,6 +10,7 @@ import {
 } from "react-icons/di";
 import { SiMicrosoftazure, SiTerraform, SiDocker } from "react-icons/si";
 import SkillsComponent from "../../Components/SkillsComponent";
+import "./SkillSet.css"
 
 const { TabPane } = Tabs;
 
@@ -17,7 +18,7 @@ export default function SkillSet() {
   return (
     <>
       <div className="Heading" style={{ color: "#334680" }}>
-        SKILLS SET
+        <div className="greS" >SKILLS SET</div>
       </div>
 
       <Tabs
