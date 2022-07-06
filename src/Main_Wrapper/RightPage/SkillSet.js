@@ -18,9 +18,8 @@ export default function SkillSet() {
   return (
     <>
       <div className="Heading" style={{ color: "#334680" }}>
-        <div className="greS" >SKILLS SET</div>
+        <div style={{background:"linear-gradient(to left, #FF0000 0%, #000000 100%)","WebkitBackgroundClip":"text","WebkitTextFillColor":"transparent"}} >SKILLS SET</div>
       </div>
-
       <Tabs
         defaultActiveKey="1"
         type="card"

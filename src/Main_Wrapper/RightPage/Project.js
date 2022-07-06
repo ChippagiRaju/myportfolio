@@ -12,7 +12,7 @@ export default function Project() {
     <>
     <div id="Project">
       <div className="Heading" style={{ color: "#334680", marginTop: "10px" }}>
-        PROJECT
+        <div style={{background:"linear-gradient(to right, #121FCF 0%, #CF1512 100%)","backgroundClip":"border-box","WebkitBackgroundClip":"text","WebkitTextFillColor":"transparent"}}>PROJECT</div>
       </div>
 
       <div
