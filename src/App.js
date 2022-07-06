@@ -4,7 +4,7 @@ import "./App.css"
 
 function App() {
   return (
-    <div style={{ backgroundColor: "#8da75e" ,marginTop:"0%" }}>
+    <div style={{ backgroundColor: "white" ,marginTop:"0%" }}>
       <Navbar1 />
       <Wrapper />
     </div>

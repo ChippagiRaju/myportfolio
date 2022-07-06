@@ -50,7 +50,7 @@ export default function index() {
       <Divider />
 
       <div style={{ fontSize: "1.2rem" }}>
-        <Row ><Col><SiGmail />chippagiraju@gmail.com</Col></Row>
+        <Row ><Col><SiGmail />{"\u00a0\u00a0"}chippagiraju@gmail.com</Col></Row>
         <Row ><Col><MdCall />+91-8008428444</Col></Row>
       </div>
       <Divider />
