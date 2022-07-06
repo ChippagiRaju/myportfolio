@@ -27,12 +27,13 @@ export default function index() {
         src={Profile_Pic}
         size={170}
         shape={"square"}
-        style={{width: "133px",
-                height: "170px",
-                lineHeight: "170px",
-                fontSize: "18px",
-                borderRadius: "84px",
-                }}
+        style={{
+          width: "133px",
+          height: "170px",
+          lineHeight: "170px",
+          fontSize: "18px",
+          borderRadius: "84px",
+        }}
       />
       <div>
         <div style={{ fontWeight: "bold", fontSize: "1.5rem" }}>
@@ -55,8 +56,8 @@ export default function index() {
       <Divider />
 
       <div style={{ fontSize: "1.2rem" }} >
-        <Row ><Col><SiGmail />{"\u00a0\u00a0"}chippagiraju@gmail.com</Col></Row>
-        <Row ><Col><MdCall />+91-8008428444</Col></Row>
+        <Row justify="center" align="middle"><Col span={4}><SiGmail /></Col><Col span={20}>chippagiraju@gmail.com</Col></Row>
+        <Row  justify="center" align="middle"><Col span={4}><MdCall /></Col><Col span={20}>+91-8008428444</Col></Row>
       </div>
       <Divider />
       <div>
