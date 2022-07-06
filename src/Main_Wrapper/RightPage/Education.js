@@ -9,7 +9,7 @@ export default function Education() {
   return (
     <>
     <div id="Education">
-      <div className="Heading" style={{ color: "#334680", marginTop: "10px" }}>
+      <div className={"Heading gr"} style={{ color: "#334680", marginTop: "10px" }}>
         EDUCATION
       </div>
       <Row>
