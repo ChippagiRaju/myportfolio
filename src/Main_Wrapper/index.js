@@ -5,6 +5,7 @@ import RightPage from "./RightPage";
 
 export default function index() {
   return (
+   
     <Row style={{ width: "90%", marginLeft: "100px" }}>
       <Col span={4}>
         <LeftPage />
@@ -13,5 +14,6 @@ export default function index() {
         <RightPage />
       </Col>
     </Row>
+   
   );
 }

@@ -13,8 +13,12 @@
   background-color: antiquewhite;
   z-index: 1;
   top: 5px;
+  scrollbar-color:turquoise;
+  
 }
-
+.scroll{
+  background-color: turquoise;
+}
 .navBar_Child {
   display: flex;
   flex-direction: row;
