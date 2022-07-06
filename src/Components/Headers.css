@@ -1,13 +1,10 @@
 .gr {
-    /* background: #CACF42; */
-    /* background: linear-gradient(to right, #1a0dd5 0%, #8C3310 50%, #752201 51%, #c5180f 100%); */
-    /* background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
-    background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+    background: -webkit-linear-gradient(-70deg, #a2facf 0%, red 5%, rgb(6, 3, 62) 25%, #1e129b 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-box-decoration-break: clone;
 }
+   
+    
     

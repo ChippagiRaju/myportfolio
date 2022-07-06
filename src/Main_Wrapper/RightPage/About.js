@@ -3,7 +3,7 @@ import Headers from "../../Components/Headers";
 
 export default function About() {
   return (
-    <div id="About" >
+    <div  >
       {/* <h1 style={{ fontWeight: "bold" }} className="gr">ABOUT ME</h1> */}
       <Headers refid={"About"} name={"ABOUT ME"} />
       <h2 style={{ width: "70%" }}>
