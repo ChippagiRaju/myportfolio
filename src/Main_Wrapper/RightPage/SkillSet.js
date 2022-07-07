@@ -13,6 +13,7 @@ import SkillsComponent from "../../Components/SkillsComponent";
 import "./SkillSet.css"
 import Headers from "../../Components/Headers";
 
+
 const { TabPane } = Tabs;
 
 export default function SkillSet() {
@@ -149,6 +150,23 @@ export default function SkillSet() {
                 percentage={"60%"}
               />
             </Col>
+            {/* <Col span={8}>
+              <SkillsComponent
+                language={"Dev.to"}
+                languageColor={"black"}
+                cardBackground={"#854668"}
+                icon={
+                  <FaDev
+                    style={{
+                      fontSize: "2.4rem",
+                      color: "white",
+                    }}
+                  />
+                }
+                level={1}
+                percentage={"60%"}
+              />
+            </Col> */}
           </Row>
         </TabPane>
         <TabPane tab="Spoken Languages" key="2">
