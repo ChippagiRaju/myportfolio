@@ -17,6 +17,7 @@ export default function Navbar() {
     }
   };
   window.addEventListener('scroll', ChangeNavbarColor);
+
   
   return (
     <Row className={color?"navBar scrollon":"navBar scrolloff"} id="scroll">
@@ -28,7 +29,7 @@ export default function Navbar() {
       <Col span={4} offset={8}>
         <div className="navBar_Child">
 
-          <div style={{ cursor: "pointer" }}> <a href="#About" target="_self">ABOUT</a></div>
+          <div style={{ cursor: "pointer" }}> <a href="#About" target="_self" >ABOUT</a></div>
           <div style={{ cursor: "pointer" }}> <a href="#Education" target="_self">EDUCATION</a></div>
           <div style={{ cursor: "pointer" }}> <a href="#Project" target="_self">PROJECT</a></div>
 

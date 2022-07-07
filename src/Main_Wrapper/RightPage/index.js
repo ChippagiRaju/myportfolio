@@ -4,7 +4,7 @@ import { About, SkillSet, Project, Education } from "./Comps";
 
 export default function index() {
   return (
-    <div style={{marginTop:"80px",marginLeft:"40px"}}>
+    <div style={{marginTop:"60px",marginLeft:"40px"}}>
       <About />
       <SkillSet />
       <Project />

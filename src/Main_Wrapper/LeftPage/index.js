@@ -13,6 +13,7 @@ import { DiStackoverflow, } from "react-icons/di";
 import SocialPlugins from "../../Components/SocialPlugins";
 import { SiGmail } from "react-icons/si";
 import { MdCall } from "react-icons/md";
+import { FaDev } from "react-icons/fa";
 
 export default function index() {
   return (
@@ -82,6 +83,13 @@ export default function index() {
               <FacebookOutlined style={{ fontSize: "2.4rem" }} />
             </SocialPlugins>
           </Col>
+          <Col span={8}>
+          <SocialPlugins target="_blank">
+              <a href="https://dev.to/chippagiraju" target={"_blank"}>
+                <FaDev style={{ fontSize: "2.4rem", color: "black" }} />
+              </a>
+            </SocialPlugins>
+          </Col>
 
           <Col span={8}>
             <SocialPlugins target="_blank">
@@ -90,7 +98,7 @@ export default function index() {
               />
             </SocialPlugins>
           </Col>
-          <Col span={8}></Col>
+         
           <Col span={8}>
             <SocialPlugins target="_blank">
               <a href="https://github.com/ChippagiRaju" target={"_blank"}>
