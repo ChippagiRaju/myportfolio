@@ -40,17 +40,6 @@ export default function index({
           </div>
         </Col>
         <Col span={8}>
-          {/* <Tag
-            color={LevelColors[level]}
-            style={{
-              fontSize: "1rem",
-              padding: "4px",
-              borderRadius: "8px",
-              textTransform: "uppercase",
-            }}
-          >
-            {Levels[level]}
-          </Tag> */}
         </Col>
       </Row>
       <Row>
